@@ -222,70 +222,48 @@ Content quality decline	Low	High	Monitor watch time, negative feedback
 Feature fatigue	Low	Medium	Track 7-day, 30-day retention
 Infrastructure cost	Low	Medium	Scale gradually, optimize models
 
-📈 Future Enhancements
-Real-time monitoring: Dashboard with live experiment data
+## 📈 Future Enhancements
+- __Real-time monitoring:__ Dashboard with live experiment data
+- __ML personalization:__ Predict which users would benefit most
+- __Multi-variant testing:__ Test different Quick Edit implementations
+- __Cross-platform expansion:__ Test on Stories, Facebook Reels
+- __Long-term impact:__ Creator retention, content diversity metrics
 
-ML personalization: Predict which users would benefit most
-
-Multi-variant testing: Test different Quick Edit implementations
-
-Cross-platform expansion: Test on Stories, Facebook Reels
-
-Long-term impact: Creator retention, content diversity metrics
-
-👥 Team Collaboration
+## 👥 Team Collaboration
 This project simulates cross-functional collaboration:
+- __Product Manager:__ Feature definition, success metrics
+- __Data Scientist:__ Experiment design, statistical analysis
+- __Engineer:__ Feature implementation, logging
+- __Data Engineer:__ Pipeline development, data quality
+- __UX Researcher:__ User testing, qualitative feedback
+  
+## 📚 Methodology Details
+### Statistical Methods
+- __Hypothesis Testing:__ Two-sample t-test with Welch's correction
+- **Confidence Intervals:** 95% CI using normal approximation
+- **Power Analysis:** 80% power for 10% lift detection
+- __Multiple Testing:__ No correction needed (single primary metric)
 
-Product Manager: Feature definition, success metrics
-
-Data Scientist: Experiment design, statistical analysis
-
-Engineer: Feature implementation, logging
-
-Data Engineer: Pipeline development, data quality
-
-UX Researcher: User testing, qualitative feedback
-
-📚 Methodology Details
-Statistical Methods
-Hypothesis Testing: Two-sample t-test with Welch's correction
-
-Confidence Intervals: 95% CI using normal approximation
-
-Power Analysis: 80% power for 10% lift detection
-
-Multiple Testing: No correction needed (single primary metric)
-
-Business Assumptions
+### Business Assumptions
 Based on Meta's public metrics and industry benchmarks:
+- __Instagram DAU:__ 1.5B (public data)
+- __Creator distribution:__ 15% casual, 10% power (internal estimates)
+- __Reels monetization:__ 35% (industry average)
+- __CPM:__ $20 (conservative estimate)
 
-Instagram DAU: 1.5B (public data)
+### Validation
+- __Synthetic data:__ Statistically valid distributions
+- __Sensitivity analysis:__ Tested different assumptions
+- __Peer review:__ Methodology reviewed by senior data scientists
 
-Creator distribution: 15% casual, 10% power (internal estimates)
+## 🏆 Key Learnings
+- __Statistical rigor matters:__ p < 0.0000 gives confidence for large-scale decisions
+- __Segment everything:__ Different user groups (iPhone/Android, casual/power) behave differently
+- __Conservative wins:__ Under-promise, over-deliver with business impact
+- __Product intuition:__ Edit tools decreasing is GOOD (feature working as intended)
+- __Communication is key:__ Executives need 1-page summaries, engineers need detailed methodology
 
-Reels monetization: 35% (industry average)
-
-CPM: $20 (conservative estimate)
-
-Validation
-Synthetic data: Statistically valid distributions
-
-Sensitivity analysis: Tested different assumptions
-
-Peer review: Methodology reviewed by senior data scientists
-
-🏆 Key Learnings
-Statistical rigor matters: p < 0.0000 gives confidence for large-scale decisions
-
-Segment everything: Different user groups (iPhone/Android, casual/power) behave differently
-
-Conservative wins: Under-promise, over-deliver with business impact
-
-Product intuition: Edit tools decreasing is GOOD (feature working as intended)
-
-Communication is key: Executives need 1-page summaries, engineers need detailed methodology
-
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 🙏 Acknowledgments
@@ -294,8 +272,8 @@ Industry benchmarks from TikTok, YouTube Shorts
 Statistical methods from "Trustworthy Online Controlled Experiments"
 Feedback from senior product analytics professionals
 
-📧 Contact
-Benjamin Ackah - [ack.ben0226@gmail.com] - [Linked.com/in/ackah-benjamin]
-Project Link: [https://github.com/yourusername/instagram-reels-analysis](https://github.com/ackben0226/Instagram-Reels-Creation-Optimization)
+## 📧 Contact
+- Benjamin Ackah - [ack.ben0226@gmail.com] - [Linkedin.com/in/ackah-benjamin](https://Linkedin.com/in/ackah-benjamin)
+- Project Link: [https://github.com/ackben0226/instagram-reels-analysis](https://github.com/ackben0226/Instagram-Reels-Creation-Optimization)
 
 This is a portfolio project simulating Meta-style product analytics. All data is synthetic, and results are for demonstration purposes.
