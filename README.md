@@ -194,7 +194,7 @@ scikit-learn>=1.2.0
 matplotlib>=3.6.0
 seaborn>=0.12.0
 ```
-## 📊 Dashboard Features
+## Dashboard Features
 ### Live Deployment
 __Access the interactive dashboard at:__ [Your Deployment URL]
 
@@ -206,19 +206,22 @@ __Access the interactive dashboard at:__ [Your Deployment URL]
 - __Business Impact:__ Revenue modeling with adjustable assumptions
 - __Launch Simulator:__ Phased rollout impact projection
 
-🎯 Success Metrics
-Metric	Target	Observed	Status
-Creation Success Lift	≥8%	10.6-12.7%	✅ Exceeded
-Feature Adoption	≥50%	60%	✅ Exceeded
-Watch Time per Reel	≥25s	30s	✅ Maintained
-App Crashes	<0.1% increase	No change	✅ Stable
-Revenue Impact	$1.5M/month	$2.1M/month	✅ Exceeded
-⚠️ Risks & Mitigations
+## Success Metrics
+|Metric	|Target	|Observed	|Status|
+|:---:|:---:	|:---:	|:---:|
+|Creation Success Lift|	≥8%	|10.6-12.7%|	✅ Exceeded|
+|Feature Adoption|	≥50%|	60%	|✅ Exceeded|
+|Watch Time per Reel|	≥25s|	30s	|✅ Maintained|
+|App Crashes	|<0.1% |increase	No change	|✅ Stable|
+|Revenue Impact|	$1.5M/month|	$2.1M/month	|✅ Exceeded|
+
+## Risks & Mitigations
 Risk	Probability	Impact	Mitigation
 Lower Android adoption	Medium	Medium	Android-specific UX optimization
 Content quality decline	Low	High	Monitor watch time, negative feedback
 Feature fatigue	Low	Medium	Track 7-day, 30-day retention
 Infrastructure cost	Low	Medium	Scale gradually, optimize models
+
 📈 Future Enhancements
 Real-time monitoring: Dashboard with live experiment data
 
