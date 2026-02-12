@@ -27,8 +27,8 @@ For this project, sythentic data were simulated to mirror Meta's data structure,
 5. **Business Impact Estimation**: Project the increase in Reels creation and watch time.
 6. **Recommendations**: Provide a data-backed launch decision.
 
-**Live Dashboard**: [Link to Streamlit/Heroku deployment]
-**Portfolio Link**: [Your portfolio URL]
+- **Live Dashboard**: [instagram reel creation](https://instagram-reels-creation-optimization-pnvqiavcg99ccruyezsdgz.streamlit.app/)
+- **Portfolio Link**: [Your portfolio URL]
 
 ### 📊 **Key Results**
 | Metric | Result | Business Impact |
